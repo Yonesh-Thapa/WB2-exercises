@@ -38,13 +38,13 @@ if (filling_status === "Single") {
 else {
 
     if (annualGrossPay < 12000) {
-        tax_withold = grossPay * 0.0; // 5 % tax
+        tax_withold = grossPay * 0.0; // 0 % tax
     }
     else if (annualGrossPay < 24999.99) {
-        tax_withhold = grossPay * 0.06; // 10 % tax
+        tax_withhold = grossPay * 0.06; // 6 % tax
     }
     else if (annualGrossPay < 74999.99) {
-        tax_withhold = grossPay * 0.11; // 15 % tax
+        tax_withhold = grossPay * 0.11; // 11 % tax
     }
     else (annualGrossPay >= 75000)
     {
