@@ -1,0 +1,24 @@
+body{
+    background-image: linear-gradient(#cfcfcf,#333741) ;
+    background-attachment:fixed;
+    /* background-repeat: no-repeat; */
+}
+
+form{
+    
+    text-align: center;
+    border: #000000 solid 0.15rem;
+    width:fit-content;
+    margin:auto auto;
+    box-shadow: 0.25rem 0.25rem;
+    border-radius: 1rem;
+   margin-top: calc(50vh - 77px);
+   background-color: #cfcfcf;
+    /* margin-bottom: 50vw; */
+}
+p{
+    padding:1rem 2rem;
+    font-weight:bold;
+}
+
+
